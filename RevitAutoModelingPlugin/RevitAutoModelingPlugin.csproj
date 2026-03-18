@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>RevitAutoModelingPlugin</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="RevitAPI" Version="2021.1.0" />
+    <PackageReference Include="RevitServices" Version="2021.1.0" />
+  </ItemGroup>
+</Project>
